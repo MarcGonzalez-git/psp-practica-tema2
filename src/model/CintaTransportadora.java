@@ -59,6 +59,21 @@ public class CintaTransportadora {
 
     }
 
+    public int getBateries() {
+        
+        lock.lock();
+
+        try {
+
+            return bateries;
+
+        } finally {
+
+            lock.unlock();
+
+        }
+    }
+
     public void gaurdarDada() throws InterruptedException {
         lock.lock();
 
