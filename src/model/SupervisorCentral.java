@@ -32,4 +32,8 @@ public class SupervisorCentral {
 
     }
 
+    public synchronized boolean isSuperescalfada() {
+        return superescalfament;
+    }
+
 }

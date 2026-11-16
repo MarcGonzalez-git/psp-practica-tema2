@@ -15,6 +15,10 @@ public class CintaTransportadora {
         return lock;
     }
 
+    public int getCapacitat() {
+        return capacitat;
+    }
+
     public void afegirBateria(int id, int numBateria) throws InterruptedException {
 
         lock.lock();

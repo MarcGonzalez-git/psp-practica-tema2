@@ -63,6 +63,18 @@ public class CentralSoldadura {
 
     }
 
+    public int getEstacionsOcupades() {
+        synchronized (estacions) {
+            int ocupades = 0;
 
+            for (boolean estacio : estacions) {
+                if (estacio) {
+                    ocupades++;
+                }
+            }
+
+            return ocupades;
+        }
+    }
 
 }
