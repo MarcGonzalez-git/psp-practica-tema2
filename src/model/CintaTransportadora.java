@@ -52,7 +52,7 @@ public class CintaTransportadora {
             }
 
             bateries--;
-            IO.println("Robot " + id + " ha afegit una bateries, queden " + bateries + " bateries");
+            IO.println("Robot " + id + " ha eliminat una bateria, queda/en " + bateries + " bateria/es");
             cintaNoPlena.signal();
 
         } finally {

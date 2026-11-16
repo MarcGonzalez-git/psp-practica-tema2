@@ -67,9 +67,4 @@ public class RobotTask implements Runnable {
 
     }
 
-    // sync verificaEstat() {
-    //     if(alertaActiva) {
-    //          wait();
-    // activa i desactivaAlerta des del main
-
 }
