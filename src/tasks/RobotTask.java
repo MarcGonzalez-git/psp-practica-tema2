@@ -7,7 +7,8 @@ public class RobotTask implements Runnable {
     private int id;
     private int bateria;
 
-    public RobotTask(int bateria) {
+    public RobotTask(int id, int bateria) {
+        this.id = id;
         this.bateria = bateria;
     }
 
